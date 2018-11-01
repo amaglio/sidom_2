@@ -87,28 +87,62 @@
   </script>
 
   <script type="text/javascript">
+
      jq_va(document).ready(function(){
-      jq_va('.customer-logos').slick({
-        slidesToShow: 5,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 1000,
-        arrows: false,
-        dots: false,
-        pauseOnHover: false,
-        responsive: [{
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 4
-          }
-        }, {
-          breakpoint: 520,
-          settings: {
-            slidesToShow: 3
-          }
-        }]
+            jq_va('.customer-logos').slick({
+              slidesToShow: 5,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 1000,
+              arrows: false,
+              dots: false,
+              pauseOnHover: false,
+              responsive: [{
+                breakpoint: 768,
+                settings: {
+                  slidesToShow: 4
+                }
+              }, {
+                breakpoint: 520,
+                settings: {
+                  slidesToShow: 3
+                }
+              }]
+            });
       });
-});
+
+      jq_va(function(){
+
+            jq_va('#form_contacto').validate({
+
+                rules :{
+
+                        nombre : {
+                            required : true
+                        },
+                        apellido : {
+                            required : true
+                        },
+                        email : {
+                            required : true,
+                            email : true
+                        }  
+                },
+                messages : {
+
+                        nombre : {
+                            required : "Debe ingresar su nombre"
+                        },
+                        apellido : {
+                            required : "Debe ingresar su apellido"
+                        },
+                        email : {
+                            required : "Debe ingresar el email",
+                            email: "Debe tener el formato de email"
+                        }  
+                } 
+            });    
+    }); 
   </script>
 
 
