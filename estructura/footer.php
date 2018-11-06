@@ -30,7 +30,6 @@
                   </div>
 
 
-
             </div>
           </div>
         </section>
@@ -63,9 +62,23 @@
 
   <script type="text/javascript" src="./assets/js/jquery.min.js"  ></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+  <script type="text/javascript">
+    var loc = window.location.pathname;
 
-  
+    console.log( loc );
+
+
+    $('#navbar').find('a').each(function() {
+      
+      var url_a = '/sidom_2/'+$(this).attr('href'); 
+      
+      $(this).toggleClass('active', url_a == loc);
+
+    });
+
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
   <!-- Bootstrap  -->
   <script type="text/javascript" src="./assets/dist/js/bootstrap.min.js"  ></script>

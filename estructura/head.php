@@ -16,7 +16,7 @@
     <link href="./assets/css/infinite-slider.css" rel="stylesheet" type="text/css" >
 
     <link href="./assets/css/hover.css" rel="stylesheet" type="text/css" >
- 
+
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
 
@@ -25,7 +25,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
- 
+
 
     </head>
   <body>
@@ -50,49 +50,29 @@
 
                     <div class="navbar-form navbar-right" role="form">
                       <div class="form-group">
-                        <a class="nav-link js-scroll-trigger active" href="./home.php"> Home </a>
+                        <a class="nav-link js-scroll-trigger active" href="index.php"> Home </a>
                       </div>
                       <div class="form-group">
-                        <a class="nav-link js-scroll-trigger" href="./cuidado_domiciliario.php"> Cuidado Domiciliario </a>
+                        <a class="nav-link js-scroll-trigger" href="cuidados-domiciliarios.php"> Cuidado Domiciliario </a>
                       </div>
                       <div class="form-group">
-                        <a class="nav-link js-scroll-trigger" href="./servicios.php"> Servicios </a>
+                        <a class="nav-link js-scroll-trigger" href="servicios.php"> Servicios </a>
                       </div>
                       <div class="form-group nav-item">
-                        <a class="nav-link js-scroll-trigger" href="./investigacion_desarrollo.php">Investigación y Desarrollo</a>
+                        <a class="nav-link js-scroll-trigger" href="investigacion.php">Investigación y Desarrollo</a>
                       </div>
                       <div class="form-group nav-item">
-                        <a class="nav-link js-scroll-trigger" href="./red.php">Red</a>
+                        <a class="nav-link js-scroll-trigger" href="red.php">Red</a>
                       </div>
                       <div class="form-group nav-item">
-                        <a class="nav-link js-scroll-trigger" href="./contacto.php">Contacto</a>
+                        <a class="nav-link js-scroll-trigger" href="contacto.php">Contacto</a>
                       </div>
                     </div>
 
 
-                  </div><!--/.navbar-collapse  -->
+                  </div> 
                 </div>
               </nav>
-
-              <script>
-
-                // Add active class to the current button (highlight it)
-                var header = document.getElementById("navbar");
-
-                var btns = header.getElementsByClassName("nav-link js-scroll-trigger");
-
-                for (var i = 0; i < btns.length; i++)
-                {
-                    btns[i].addEventListener("click", function()
-                    {
-                      var current = document.getElementsByClassName("active");
-                      current[0].className = current[0].className.replace(" active", "");
-                      this.className += " active";
-                    });
-                }
-
-              </script>
-            <
 
       </div>
   </section>
