@@ -1,87 +1,76 @@
-// jq_c( "#form_consulta_web" ).submit(function( event ) {
-//     alert("aaa");
-//      event.preventDefault();
+$(function() {
 
-// }); 
-
-// jq_c(function() {
-
-//   console.log("EMAIL");
- 
-//   jq_c( "#form_consulta_web" ).submit(function( event ) {
+  $("#contactForm input,#contactForm textarea").jqBootstrapValidation({
+    preventSubmit: true,
+    submitError: function($form, event, errors) {
+      // additional error messages or events
+    },
+    submitSuccess: function($form, event) {
+      event.preventDefault(); // prevent default submit behaviour
+      // get values from FORM
    
-//     event.preventDefault();
-//     alert("aaa");
- 
-//     var nombre = jq_c("input#nombre").val();
-//     var apellido = jq_c("input#apellido").val();
-//     var email = jq_c("input#email").val();
-//     var mensaje = jq_c("textarea#mensaje").val(); 
-//     var whatsapp = jq_c("input#whatsapp").val(); 
- 
-//     $this = jq_c("#submit_enviar_consulta");
-//     $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
+      var nombre = $("input#nombre").val();
+      var email = $("input#email").val();
+      var asunto = $("input#asunto").val();
+      var mensaje = $("textarea#mensaje").val();  
+      var firstName = nombre; 
+      // Check for white space in name for Success/Fail message
+      if (firstName.indexOf(' ') >= 0) {
+        firstName = name.split(' ').slice(0, -1).join(' ');
+      }
+      $this = $("#sendMessageButton");
+      $this.prop("disabled", true); // Disable submit button until AJAX call is complete to prevent duplicate messages
+      $.ajax({
+        url: "././mail/contact_me.php",
+        type: "POST",
+        data: {
+          nombre: nombre,
+          asunto: asunto,
+          email: email,
+          mensaje: mensaje 
+        },
+        cache: false,
+        success: function() {
+          // Success message
+          $('#success').html("<div class='alert alert-success'>");
+          $('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+            .append("</button>");
+          $('#success > .alert-success')
+            .append("<strong>Tu mensaje ha sido enviado. </strong>");
+          $('#success > .alert-success')
+            .append('</div>');
+          //clear all fields
+          $('#contactForm').trigger("reset");
+        },
+        error: function() {
+          // Fail message
+          $('#success').html("<div class='alert alert-danger'>");
+          $('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
+            .append("</button>");
+          $('#success > .alert-danger').append($("<strong>").text("Lo sentimos pero el servidor no responde. Por favor, intente mas tarde!"));
+          $('#success > .alert-danger').append('</div>');
+          //clear all fields
+          $('#contactForm').trigger("reset");
+        },
+        complete: function() {
+          setTimeout(function() {
+            $this.prop("disabled", false); // Re-enable submit button when AJAX call is complete
+          }, 1000);
+        }
+      });
+    },
+    filter: function() {
+      return $(this).is(":visible");
+    },
+  });
 
- 
-//     jq_c.ajax({
-//               url: CI_ROOT+'index.php/home/procesa_consulta_web',
-//               data: {   nombre: nombre,
-//                         apellido: apellido,
-//                         email: email,
-//                         whatsapp: whatsapp,
-//                         mensaje: mensaje },
-//               async: true,
-//               type: 'POST',
-//               dataType: 'JSON',
-//               success: function(data)
-//              {  
-//                 //$("#cargando").hide();
-                
-//                 if(data.error == false)
-//                 {
-//                   //alert("Bien");
-//                   jq_c('#success').html("<div class='alert alert-success'>");
-//                   jq_c('#success > .alert-success').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-//                     .append("</button>");
-//                   jq_c('#success > .alert-success')
-//                     .append("<strong>Tu mensaje ha sido enviado exitosamente y será respondido a la brevedad. </strong>");
-//                   jq_c('#success > .alert-success')
-//                     .append('</div>');
-//                   //clear all fields
-//                   jq_c('#contactForm').trigger("reset");
-//                 }
-//                 else
-//                 {
-//                   //alert("Mal");
-//                   jq_c('#success').html("<div class='alert alert-danger'>");
-//                   jq_c('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-//                     .append("</button>");
-//                   jq_c('#success > .alert-danger').append(jq_c("<strong>").text("Ha ocurrido un error, por favor, intente mas tarde o escribinos a nuestro email"));
-//                   jq_c('#success > .alert-danger').append('</div>');
-//                   //clear all fields
-//                   jq_c('#contactForm').trigger("reset");
-//                 }
+  $("a[data-toggle=\"tab\"]").click(function(e) {
+    e.preventDefault();
+    $(this).tab("show");
+  });
+});
 
-
-//               },
-//               error: function(x, status, error){
-//                   jq_c("#cargando").hide();
-//                   jq_c('#success').html("<div class='alert alert-danger'>");
-//                   jq_c('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
-//                     .append("</button>");
-//                   jq_c('#success > .alert-danger').append(jq_c("<strong>").text("Ha ocurrido un error, por favor intente más tarde o escribinos a nuestro."));
-//                   jq_c('#success > .alert-danger').append('</div>');
-//                   //clear all fields
-//                   jq_c('#contactForm').trigger("reset");
-//               },
-//               complete: function() {
-//                 setTimeout(function() {
-//                   $this.prop("disabled", false); // Re-enable submit button when AJAX call is complete
-//                 }, 1000);
-//               } 
-//     });
-
-    
-//   }); 
-  
-// }); 
+/*When clicking on Full hide fail/success boxes */
+$('#name').focus(function() {
+  $('#success').html('');
+});

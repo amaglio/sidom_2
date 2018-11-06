@@ -7,9 +7,10 @@
 
                   <div class="col-md-4 col-xs-12 ">
 
-                        <p>Billinghurst 1833 - Piso 10, Buenos Aires - Argentina</p>
-                        <p>+5411 4821-2105</p>
-                        <p>informes@fundacionsidom.org</p>
+                        <p>SIDOM S.A. | Sede central</p>
+                        <p>Neuquén 1329, Capital Federal </p>
+                        <p>+5411 4632-8100 </p>
+                        <p>consultas@sidom.com.ar</p>
 
                   </div>
                   <div class="col-md-4 col-xs-12 " >
@@ -76,7 +77,7 @@
   <script type="text/javascript" src="./assets/js/jquery-easing/jquery.easing.min.js"></script>
 
 
-
+<!--   <script src="./assets/js/contact_me.js"></script> -->
 
   <!-- Jquery validate  -->
   <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js" ></script>
@@ -110,7 +111,7 @@
               }]
             });
       });
-
+     
       jq_va(function(){
 
             jq_va('#form_contacto').validate({

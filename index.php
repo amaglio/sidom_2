@@ -70,7 +70,12 @@
 		<div class="row">
 			<div class="col-md-12 col-xs-12 " >
 				<div class="container">
-					<p class="text-center">TEXTO FIJO FILOSOFIA DEL TRABAJO</p>
+					<p  >
+						Somos <strong>la primera empresa de internación domiciliaria del país</strong>, con un <strong>equipo interdisciplinario que hace más de 30 años trabaja para garantizar la calidad de la atención integral de los pacientes en todos los niveles de complejidad y asistencia. </strong>
+					</p>
+					<p>
+ 						<strong> SIDOM SA. responde a la creación de un paradigma superador en materia de atención de salud, que, desde 1988, todos los días se pone en práctica en cada historia de vida que cuidamos</strong>.</p>
+					</p>
 				</div>
 
 			</div>
@@ -83,11 +88,30 @@
 			<div class="row">
 				<div class="col-md-6">
 					SERVICIOS <br>
-					<a class="btn btn-primary "> Más sobre servicios </a>
+					<p>
+						<strong>Estructura de unidades profesionales y tecnológicas para atender todas las patologías, en todos los niveles de complejidad, para pacientes pediátricos, adultos, adultos mayores, y adultos muy mayores.</strong>
+					</p>
+						<ul class="list-group">
+							<li class="list-group-item">Médico coordinador. </li>
+							<li class="list-group-item">Médico de cabecera. </li>
+							<li class="list-group-item">Médicos especialistas: cirujanos, cardiólogos, neurólogos, traumatólogos, fisiatras, ginecólogos.</li>
+							<li class="list-group-item">Enfermería para adultos y pediátricos, en todos los niveles de complejidad</li>
+							<li class="list-group-item">Plantel de rehabilitación integral: kinesiología, terapia ocupacional, fonoaudiología, psicología.
+							</li>
+							<li class="list-group-item"> Equipo de trabajadores sociales: para evaluar las condiciones socioambientales y requerimientos de los pacientes y la familia.</li>
+						</ul>
+					<p>
+
+					</p>
 				</div>
 				<div class="col-md-6">
 					PLAN TERAPEUTICO <br>
-					<a class="btn btn-primary "> Más información </a>
+					<p>
+						Analizado y diseñado por un <strong> equipo interdisciplinario de profesionales de la salud</strong>, con la <strong>tecnología y el material de apoyo adecuado para realizarlo en el domicilio del paciente.</strong>
+					</p>
+					<p>
+						Da respuestas personalizadas en casos de internaciones hospitalarias prolongadas, en pacientes con padecimientos sub-agudos, crónicos, post-quirúrgicos, enfermedades invalidantes, oncológicas, psiquiátricas, entre otras, principalmente <strong>para incrementar las posibilidades de un alta temprana y la continuación del tratamiento en el hogar</strong>, reconociendo que sólo <strong>la relación permanente con el núcleo familiar y el respeto a las costumbres determinan las mejores condiciones para la recuperación.</strong>
+					</p>
 				</div>
 				<div class="col-md-6">
 					INVESTIGACION Y DESARROLLO<br>
@@ -115,13 +139,43 @@
               </div>
 
             <section class="customer-logos slider">
-              <div class="slide"><img class="img_convenio" src="./assets/img/convenios/CONVENIOBIOETICAR.png"></div>
-              <div class="slide"><img class="img_convenio" src="./assets/img/convenios/CONVENIOSBUENOSAIRES.png"></div>
-              <div class="slide"><img class="img_convenio" src="./assets/img/convenios/CONVENIOSGC.jpg"></div>
-              <div class="slide"><img class="img_convenio" src="./assets/img/convenios/CONVENIOSIDOM.jpg"></div>
-              <div class="slide"><img class="img_convenio" src="./assets/img/convenios/CONVENIOSSANFRANCISCO.jpg"></div>
-              <div class="slide"><img class="img_convenio" src="./assets/img/convenios/CONVENIOSSIGLO21.jpg"></div>
-              <div class="slide"><img class="img_convenio" src="./assets/img/convenios/CONVENIOSVICENTELOPEZ.jpg"></div> 
+				<div class="slide">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13134.19556320705!2d-58.4524963!3d-34.615567!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x74e221f37fb25e35!2sSIDOM+S.A!5e0!3m2!1ses!2sar!4v1541464971764" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<p>
+							<i class="fas fa-map-marker-alt"></i> CAPITAL FEDERAL<br>
+							Neuquén 1329
+						</p>
+				</div>
+				<div class="slide">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13139.372700878952!2d-58.5395022!3d-34.5828345!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9634baccc0f44724!2sSIDOM!5e0!3m2!1ses!2sar!4v1541465197717" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<p>
+							<i class="fas fa-map-marker-alt"></i> SAN MARTÍN<br>
+							Av. Dr. Ricardo Balbín 1809 1° 4  
+						</p>
+				</div>
+ 				<div class="slide">
+							
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.75543934498!2d-58.39450498476753!3d-34.7113478804317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccd3d3cb15a35%3A0xf2177bdd5c8b3812!2sAv.+Pres.+Hip%C3%B3lito+Yrigoyen+4883%2C+B1826DQH+Lan%C3%BAs+Oeste%2C+Pcia+de+Buenos+Aires!5e0!3m2!1ses!2sar!4v1541465304051" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<p>
+							<i class="fas fa-map-marker-alt"></i> LANÚS<br>
+							Hipólito Yrigoyen 4883 1° A  
+						</p>
+				</div>
+				<div class="slide">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.28734880945!2d-58.25841498476712!3d-34.7231506804287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e41b562c7f7%3A0xc8ae5251bb2a81f5!2sLavalle+678%2C+Quilmes%2C+Pcia+de+Buenos+Aires!5e0!3m2!1ses!2sar!4v1541465386113" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<p>
+							<i class="fas fa-map-marker-alt"></i> QUILMES<br>
+							Lavalle 678 6º B C  
+						</p>
+				</div>
+				<div class="slide">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3279.28734880945!2d-58.25841498476712!3d-34.7231506804287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32e41b562c7f7%3A0xc8ae5251bb2a81f5!2sLavalle+678%2C+Quilmes%2C+Pcia+de+Buenos+Aires!5e0!3m2!1ses!2sar!4v1541465386113" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<p>
+							<i class="fas fa-map-marker-alt"></i> MORÓN<br>
+							Lavalle 678 6º B C  
+						</p>
+
+				</div> 
             </section>
         </div>
       </div>
