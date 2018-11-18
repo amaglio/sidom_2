@@ -1,44 +1,43 @@
 <?php include('estructura/head.php') ?>
 <?php include('funciones.php') ?>
-
-	<style type="text/css">
-
-		.img-thumbnail{
-
-			height: 100px;
-			width: 100%;
-
-
-		}
-
-		.imagen{
-			height: 150px;
-			overflow: hidden;
-		    background-size: cover;
-		    background-position: center;
-		    background-image: url('./assets/img/imagen.jpg');
-
-
-		}
-	</style>
+ 
 
 	<section id="seccion_slide">
 		<div class="row">
+			<div class="col-md-12 col-xs-12 header_pagina" > 
+				<div class="imagen_header"></div>
+				<div class="imagen_header_sombra" >
+					<div class="container">
+						<p class="imagen_header_titulo">Cuidados domiciliarios</p>
+					</div> 
+				
+				</div>
+				 
+			</div>
+		</div>
+	</section>
+
+
+	<!--  TEXTO FIJO   -->
+	<section id="seccion_texto_fijo">
+
+		<div class="row" style="padding: 30px 0px">
 			<div class="col-md-12 col-xs-12 " >
 				<div class="container">
-					<p >
-						Desde hace tres décadas, SIDOM asiste a miles y miles de pacientes en todos los niveles de complejidad, tanto pediátricos como adultos, adultos mayores y adultos muy mayores.
+					<p>Desde hace tres décadas, SIDOM asiste a miles y miles de pacientes en todos los niveles de complejidad, tanto pediátricos como adultos, adultos mayores y adultos muy mayores.
 						Cada historia de vida implicó e implica el diseño de un trabajo customizado para responder a sus necesidades, con una filosofía firme, basada en el desarrollo de servicios centrados en las personas.
 					</p>
 				</div>
+
 			</div>
 		</div>
+
 	</section>
 
 	<div class="row">
 			<div class="container" >
 				<div class="col-md-8 col-xs-12 " >
-					<div class="imagen"></div>
+					<div class="imagen_header" style="height: 150px"></div>
 					<div>
 						<p>
 							En los años 80 la Argentina contaba con algunos casos aislados de instituciones hospitalarias que desarrollaron programas de atención descentralizada a domicilio, fundamentalmente para pacientes agudos. El sentido de esta decisión era liberar camas hospitalarias y optimizar costos.
@@ -46,7 +45,7 @@
 
 						</p>
 					</div>
-					<div class="imagen"></div>
+					<div class="imagen_header" style="height: 150px"></div>
 					<div  >
 						<p>
 						Ser pionero implica demostrar el cambio que se podía generar. Por eso en SIDOM lo pensamos integralmente, desde los servicios asistenciales, la investigación, la docencia y el desarrollo de políticas sociosanitarias.
@@ -55,7 +54,7 @@
 						
 
 					</div>
-					<div class="imagen"></div>
+					<div class="imagen_header" style="height: 150px"></div>
 				</div>
 
 

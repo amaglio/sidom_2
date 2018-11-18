@@ -14,7 +14,7 @@
 
                   </div>
                   <div class="col-md-4 col-xs-12 " >
-                        <ul class="item-footer" style="color:#000"> 
+                        <ul class="item-footer" style="color:#000">
 
                             <li><i class="fab fa-pushed"></i> <a  href="./investigacion_desarrollo.php">Investigación y Desarrollo</a></li>
                             <li><i class="fab fa-pushed"></i> <a  href="./red.php">Red</a></li>
@@ -25,7 +25,7 @@
                         <ul class="item-footer" style="color:#000">
                             <li><i class="fab fa-pushed"></i> <a  href="./home.php"> Home </a></li>
                             <li><i class="fab fa-pushed"></i> <a  href="./cuidado_domiciliario.php"> Cuidado Domiciliario </a></li>
-                            <li><i class="fab fa-pushed"></i> <a  href="./servicios.php"> Servicios </a></li> 
+                            <li><i class="fab fa-pushed"></i> <a  href="./servicios.php"> Servicios </a></li>
                         </ul>
                   </div>
 
@@ -69,14 +69,15 @@
 
 
     $('#navbar').find('a').each(function() {
-      
-      var url_a = '/sidom_2/'+$(this).attr('href'); 
-      
+
+      var url_a = '/sidom_2/'+$(this).attr('href');
+
       $(this).toggleClass('active', url_a == loc);
 
     });
 
-</script>
+
+  </script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
 
@@ -101,6 +102,34 @@
   </script>
 
   <script type="text/javascript">
+    
+    
+      
+    jq_va(document).ready(function() {
+        //set initial state.
+        jq_va('#sumate').val(jq_va(this).is(':checked'));
+        
+        jq_va('#sumate').change(function() {
+            
+            if(jq_va(this).is(":checked")) 
+            {
+                // var returnVal = confirm("Are you sure?");
+                // jq_va(this).attr("checked", returnVal);
+                 jq_va('#div_cv').show();
+            }
+            else
+            {
+              jq_va('#div_cv').hide();
+            }
+            // jq_va('#sumate').val(jq_va(this).is(':checked'));        
+        });
+    });
+
+      jq_va(document).ready(function(){
+           if (window.location.href.indexOf("contacto") >= 0) {
+                jq_va('#div_sumate_sidom').show();
+            }
+      });
 
      jq_va(document).ready(function(){
             jq_va('.customer-logos').slick({
@@ -124,7 +153,7 @@
               }]
             });
       });
-     
+
       jq_va(function(){
 
             jq_va('#form_contacto').validate({
@@ -140,7 +169,10 @@
                         email : {
                             required : true,
                             email : true
-                        }  
+                        },
+                        cv : {
+                            required : true
+                        }
                 },
                 messages : {
 
@@ -153,10 +185,13 @@
                         email : {
                             required : "Debe ingresar el email",
                             email: "Debe tener el formato de email"
-                        }  
-                } 
-            });    
-    }); 
+                        },
+                        cv : {
+                            required : "Debe subir su CV"
+                        }
+                }
+            });
+    });
   </script>
 
 
