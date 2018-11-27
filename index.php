@@ -1,14 +1,7 @@
 <?php include('estructura/head.php') ?>
-
-	<style type="text/css">
-
-		.slick-slide img
-		{
-  			width: auto;
-		}
-
-	</style>
-
+	
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+ 
 	<!--  SLIDE   -->
 	<section id="seccion_slide">
 		<div class="row">
@@ -56,24 +49,22 @@
 
 			        </div>
 			       <!--  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-			        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
- -->
+			        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>-->
 			    </div>
-			 </div>
-
+			</div>
 		</div>
 	</section>
 
 	<!--  TEXTO FIJO   -->
 	<section id="seccion_texto_fijo">
 
-		<div class="row" style="padding: 10px 0px 0px 0px">
+		<div class="row" style="padding: 20px 0px 0px 0px">
 			<div class="col-md-12 col-xs-12 " >
 				<div class="container">
-					<p>
+					<p style="font-size: 15px">
 						Somos <strong>la primera empresa de internación domiciliaria del país</strong>, con un <strong>equipo interdisciplinario que hace más de 30 años trabaja para garantizar la calidad de la atención integral de los pacientes en todos los niveles de complejidad y asistencia. </strong>
 					</p>
-					<p>
+					<p style="font-size: 15px">
  						<strong> SIDOM SA. responde a la creación de un paradigma superador en materia de atención de salud, que, desde 1988, todos los días se pone en práctica en cada historia de vida que cuidamos</strong>.
  					</p>
 				 
@@ -81,57 +72,63 @@
 
 			</div>
 		</div>
-
 	</section>
 
 	<!--  CUADRICULA   -->
 	<section id="seccion_cuadricula">
-		<div class="container">
-			<div class="row" style="padding: 10px 0px">
-				<div class="col-md-6">
+		
+		<div style=" background-color: #8080801a">
+			<div class="container">
+				<div class="row" style="padding: 20px 0px;">
+						<div class="col-md-6 ">
 
-				 	<label class="label_seccion" style="  border-left:4px solid #00699e">
+						 	<label class="label_seccion label_azul"  >
 
-                     Servicios
+		                     Servicios
 
-                  	</label>
- 
-					<p>
-						<strong>Estructura de unidades profesionales y tecnológicas para atender todas las patologías, en todos los niveles de complejidad, para pacientes pediátricos, adultos, adultos mayores, y adultos muy mayores.</strong>
-					</p>
-						<ul class="list-group" id="ul_servicios">
-							<li >Médico coordinador.  </li>
-							<li >Médico de cabecera. </li>
-							<li >Médicos especialistas: cirujanos, cardiólogos, neurólogos, traumatólogos, fisiatras, ginecólogos.</li>
-							<li >Enfermería para adultos y pediátricos, en todos los niveles de complejidad.</li>
-							<li >Plantel de rehabilitación integral: kinesiología, terapia ocupacional, fonoaudiología, psicología.
-							</li>
-							<li > Equipo de trabajadores sociales: para evaluar las condiciones socioambientales y requerimientos de los pacientes y la familia.</li>
-						</ul>
+		                  	</label>
+		 
+							<p>
+								<strong>Estructura de unidades profesionales y tecnológicas para atender todas las patologías, en todos los niveles de complejidad, para pacientes pediátricos, adultos, adultos mayores, y adultos muy mayores.</strong>
+							</p>
+								<ul class="list-group" id="ul_servicios">
+									<li >Médico coordinador.  </li>
+									<li >Médico de cabecera. </li>
+									<li >Médicos especialistas: cirujanos, cardiólogos, neurólogos, traumatólogos, fisiatras, ginecólogos.</li>
+									<li >Enfermería para adultos y pediátricos, en todos los niveles de complejidad.</li>
+									<li >Plantel de rehabilitación integral: kinesiología, terapia ocupacional, fonoaudiología, psicología.
+									</li>
+									<li > Equipo de trabajadores sociales: para evaluar las condiciones socioambientales y requerimientos de los pacientes y la familia.</li>
+								</ul>
 
-					<a class="btn btn-primary" href="servicios.php"> Más servicios </a>
-				</div>
-				<div class="col-md-6">
-				 	 
-				 	<label class="label_seccion" style="  border-left:4px solid #00699e">
+							<a class="btn btn-primary" href="servicios.php"> Más información </a>
+						</div>
+					
+						<div class="col-md-6">
+						 	 
+						 	<label class="label_seccion label_celeste">
 
-                   	Plan Terapéutico
+		                   	Plan Terapéutico
 
-                  	</label>
-					<p>
-						Analizado y diseñado por un <strong> equipo interdisciplinario de profesionales de la salud</strong>, con la <strong>tecnología y el material de apoyo adecuado para realizarlo en el domicilio del paciente.</strong>
-					</p>
-					<p>
-						Da respuestas personalizadas en casos de internaciones hospitalarias prolongadas, en pacientes con padecimientos sub-agudos, crónicos, post-quirúrgicos, enfermedades invalidantes, oncológicas, psiquiátricas, entre otras, principalmente <strong>para incrementar las posibilidades de un alta temprana y la continuación del tratamiento en el hogar</strong>, reconociendo que sólo <strong>la relación permanente con el núcleo familiar y el respeto a las costumbres determinan las mejores condiciones para la recuperación.</strong>
-					</p>
+		                  	</label>
+							<p>
+								Analizado y diseñado por un <strong> equipo interdisciplinario de profesionales de la salud</strong>, con la <strong>tecnología y el material de apoyo adecuado para realizarlo en el domicilio del paciente.</strong>
+							</p>
+							<p>
+								Da respuestas personalizadas en casos de internaciones hospitalarias prolongadas, en pacientes con padecimientos sub-agudos, crónicos, post-quirúrgicos, enfermedades invalidantes, oncológicas, psiquiátricas, entre otras, principalmente <strong>para incrementar las posibilidades de un alta temprana y la continuación del tratamiento en el hogar</strong>, reconociendo que sólo <strong>la relación permanente con el núcleo familiar y el respeto a las costumbres determinan las mejores condiciones para la recuperación.</strong>
+							</p>
 
-					<a class="btn btn-primary" href="cuidados-domiciliarios.php"> Más plan terapéutico </a>
+							<a class="btn btn-primary" href="cuidados-domiciliarios.php">  Conocer más</a>
+						</div>
 				</div>
 			</div>
-			<div class="row">
+		</div>
+
+		<div class="container">
+			<div class="row" style="padding: 20px 0px">
 				<div class="col-md-6">
-					<h2></h2>
-					<label class="label_seccion" style="  border-left:4px solid #00699e">
+					 
+					<label class="label_seccion label_celeste" >
 
                      Investigación y desarrollo
 
@@ -140,28 +137,30 @@
 						Trascender en las respuestas sociosanitarias que se brindan implica un trabajo diario de investigación, discusión interdisciplinaria, estudio de coyuntura local e internacional, evaluación jurídica comparada, y diseño de nuevas herramientas para la mejora continua. Contamos con un espacio único en el sector, de alcance local e internacional, para responder a estas exigencias: nuestra <a href="http://www.fundacionsidom.org/Home"> Fundación SIDOM </a>. 
 					</p>
 					<br>
-					<a class="btn btn-primary" href="investigacion.php"> Más Investigación </a>
+					<a class="btn btn-primary" href="investigacion.php">  Más información  </a>
 				</div>
 				<div class="col-md-6">
-					<iframe width="921" height="516" src="https://www.youtube.com/embed/8yTu5pHmzuM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="921" height="300" src="https://www.youtube.com/embed/8yTu5pHmzuM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</div>
 		</div>
 	</section>
-
+	
+	<!--  RED SIDOM   -->
 	<section id="logos">
 
       <div class="container">
-        <div class="row div_row">
-            <div class="row ">
-                <div class=" col-xs-12  "  >
-                  <label class="label_seccion" style=" margin-bottom: 20px">
+        <div class="row  ">
+        	<div class=" col-xs-12  "  >
+        		<a href="red.php">
+					<label class="label_seccion" style=" margin-bottom: 20px; border-left: 4px solid #00699e !important;">
 
-                      Red SIDOM SA
+					Red SIDOM SA
 
-                  </label>
+					</label>
+                </a>
                 </div>
-              </div>
+            <div class="row"> </div>
 
             <section class="customer-logos slider">
 				<div class="slide">

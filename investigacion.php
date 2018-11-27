@@ -6,7 +6,7 @@
 				<div class="imagen_header"></div>
 				<div class="imagen_header_sombra" >
 					<div class="container">
-						<p class="imagen_header_titulo">nvestigación y desarrollo</p>
+						<p class="imagen_header_titulo">Investigación y Desarrollo</p>
 					</div> 
 				
 				</div>
@@ -15,28 +15,38 @@
 		</div>
 	</section>
 
-	<!--  TEXTO FIJO   -->
+ 
 	<section id="seccion_texto_fijo">
  		
  		<div class="container">
-			<div class="col-md-12 col-xs-12 " style="padding-top: 30px; padding-bottom: 30px  " >
+			<div class="col-md-8 col-xs-12 " style="padding-top: 30px; padding-bottom: 30px  " >
 				<p>
 					A través de la Fundación SIDOM desarrollamos programas de <strong>investigaciones empíricas </strong>  dirigidos a evaluar la <strong>adecuación de los servicios sociosanitarios que se ofrecen para satisfacer las necesidades de diversos pacientes.</strong>
 				</p>
 				<p>
-					Contamos con equipos profesionales con experiencia local e internacional, especializados en el diseño de proyectos de intervención en bienestar y calidad de vida. 
-				</p>
-				<p>
-					Según objetivos, se trabaja en el <strong>desarrollo de servicios y la construcción de indicadores de evaluación de resultados, control y monitoreo de actividades propuestas</strong>. Se procura seguir una metodología participativa, basada en probadas buenas <strong>prácticas de intervención.</strong>
-				</p> 
-			</div>
+					Contamos con equipos profesionales con experiencia local e internacional, especializados en la definición <strong> de servicios y la construcción de indicadores de evaluación de resultados, control y monitoreo de actividades propuestas.</strong> Se procura seguir una metodología participativa, basada en probadas buenas <strong> prácticas de intervención </strong>, con foco en:
 
+					<ul>
+						<li><strong>Calidad de servicios sociales y sanitarios.</strong></li>
+						<li><strong>Bienestar y calidad de vida.</strong></li>
+						<li><strong>Sistemas de información de calidad centrados en las personas, con participación de los usuarios.</strong></li>
+					</ul>
+				 
+					<!-- Según objetivos, se trabaja en el <strong>desarrollo de servicios y la construcción de indicadores de evaluación de resultados, control y monitoreo de actividades propuestas</strong>. Se procura seguir una metodología participativa, basada en probadas buenas <strong>prácticas de intervención.</strong> -->
+				</p> 
+				<p id="frase_servicios_1">
+						Nuestros equipos elaboran indicadores de procesos y resultados que permiten evaluar la calidad de las prestaciones, basados en las mejores prácticas para obtener resultados en términos de calidad de vida, aplicando el enfoque de derechos humanos, el enfoque de género, y el enfoque sociosanitario, tal como establecen los lineamientos internacionales en la materia: Organización Mundial de la Salud, Organización Panamericana de la Salud y Naciones Unidas, entre otros. 
+					</p>
+			</div>
+			<div class="col-md-4 col-xs-12 ">	
+				<?php ver_formulario(); ?>
+			</div>
 		</div>
 
 	</section>
  
 
-	<div class="container" >
+	<!-- <div class="container" >
  
 			<div class="col-md-6 col-xs-12 " >
 
@@ -86,6 +96,6 @@
 				</p>
 			</div>
 		 
-	</div>
+	</div> -->
 
 <?php include('estructura/footer.php') ?>	

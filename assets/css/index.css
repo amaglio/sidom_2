@@ -1,0 +1,28 @@
+.slick-slide img
+{
+	width: auto;
+}
+/*
+.label_seccion{
+	border-left:4px solid #00699e
+}
+*/
+.label_azul{
+	background-color: #00699e;
+	color: #FFFFFF;
+}
+
+.label_celeste{
+	background-color: #6dc8cf;
+	color: #FFF;
+}
+
+ul{
+	border: 0px !important;
+}
+
+
+
+.btn{
+	font-weight: bold;
+}

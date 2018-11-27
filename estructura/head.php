@@ -43,7 +43,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                       </button>
-                      <a class="navbar-brand" href="#"><img class="img_logo"  src="./assets/img/logo.png"></a>
+                      <a class="navbar-brand" href="index.php"><img class="img_logo"  src="./assets/img/logo.png"></a>
                     </div>
                   </div>
                   <div id="navbar" class="navbar-collapse collapse">

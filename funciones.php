@@ -8,7 +8,7 @@ function ver_formulario()
 
 
     <div class="form-group" style="padding-top: 10px">
-        <label>Dejanos tu consulta</label>
+        <label>Más información y consultas</label>
     </div>
     <form name="form_contacto" id="form_contacto" method="post" action="procesar_contacto.php" enctype="multipart/form-data">
 

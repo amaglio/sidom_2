@@ -272,7 +272,7 @@ label.error
     /*background-color: #00699e14;*/
     margin-bottom: 10px;
     padding-left: 20px;
-    border-left: 4px solid #00699e !important;
+    /*border-left: 4px solid #00699e !important;*/
     font-size: 20px;
     font-weight: 100;
 }
@@ -288,6 +288,7 @@ i.fa-pushed{
 
 #ul_servicios{
 padding-left: 20px;
+
 }
 
 .carousel-indicators .active {
@@ -704,19 +705,45 @@ div.parent{
 
 }
 
+.imagen_cuidados_1{
+ 
+    background-image: url('../img/cuidados_1.jpg');
+}
 
+.imagen_cuidados_2{
+    background-image: url('../img/cuidados_2.jpg');
+}
+
+.imagen_servicios_1{
+    background-image: url('../img/servicios_1.jpg');
+}
+
+.imagen_servicios_2{
+    background-image: url('../img/servicios_2.jpg');
+}
+
+.list-group{
+  
+    -webkit-box-shadow: none;
+}
 
 .div_row_mapa{
       padding: 10px;
     border-bottom: 1px solid #00699e4d;
 }
 
-
+#frase_servicios_1{
+  font-size: 15px;
+  font-style: italic;
+}
 
 .direccion_red{
-font-size: 16px;
-    letter-spacing: 1px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+  text-align: center;
 }
+ 
 
 .iframe_mapa{
 -webkit-box-shadow: 2px 2px 8px 1px rgba(196,196,196,1);
