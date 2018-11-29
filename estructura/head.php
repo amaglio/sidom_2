@@ -20,7 +20,7 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
 
-    <link href="./assets/css/style.css" rel="stylesheet" type="text/css" >
+    <link href="./assets/css/style2.css" rel="stylesheet" type="text/css" >
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
@@ -68,11 +68,9 @@
                         <a class="nav-link js-scroll-trigger" href="contacto.php">Contacto</a>
                       </div>
                     </div>
-
-
                   </div> 
                 </div>
-              </nav>
+            </nav>
 
       </div>
   </section>

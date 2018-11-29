@@ -34,11 +34,9 @@ else
     $mail->FromName = "Contacto";
 
 
-    $mail->AddAddress("adrian.magliola@gmail.com");
-    $mail->AddAddress("consultas@sidom.com.ar");
 
     $mail->IsHTML(true); // El correo se envía como HTML
-    $mail->Subject = "Beex: Contacto WEB"; // Este es el titulo del email.
+    $mail->Subject = "SIDOM: Contacto WEB"; // Este es el titulo del email.
 
     $body = "<strong>Nombre: </strong>".$nombre."<br>";
     $body .= "<strong>Apellido: </strong>".$apellido."<br>";
@@ -69,9 +67,19 @@ else
 
     if (isset($_FILES['cv']) && $_FILES['cv']['error'] == UPLOAD_ERR_OK)
     {
-        echo "Entro0";
+        
         $mail->AddAttachment($_FILES['cv']['tmp_name'],
                              $_FILES['cv']['name']);
+
+
+        $mail->AddAddress("adrian.magliola@gmail.com");
+        //$mail->AddAddress("cv@sidom.com.ar");
+
+    }
+    else
+    {
+        $mail->AddAddress("lindosugus@hotmail.com");
+        //$mail->AddAddress("consultas@sidom.com.ar");
     }
 
     $mail->Body = $body;

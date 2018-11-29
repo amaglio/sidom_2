@@ -133,7 +133,7 @@
 
      jq_va(document).ready(function(){
             jq_va('.customer-logos').slick({
-              slidesToShow: 5,
+              slidesToShow: 3,
               slidesToScroll: 1,
               autoplay: true,
               autoplaySpeed: 1000,
@@ -148,7 +148,7 @@
               }, {
                 breakpoint: 520,
                 settings: {
-                  slidesToShow: 3
+                  slidesToShow: 1
                 }
               }]
             });
@@ -191,7 +191,8 @@
                         }
                 }
             });
-    });
+      });
+
   </script>
 
 

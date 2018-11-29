@@ -17,7 +17,7 @@
 			        <div class="carousel-inner" id="carousel-inner" >
 
 			          <div class="item active">
-			             <img class=" " src="./assets/img/carrusel/slider1.jpg"  >
+			             	<img class=" " src="./assets/img/carrusel/slider1.jpg"  >
 			             
 
 
@@ -31,7 +31,7 @@
 			          </div>
 
 			          <div class="item ">
-			             <img class="d-block w-100 imagen_slider" src="./assets/img/carrusel/slider2.jpg"  >
+			             <img class=" " src="./assets/img/carrusel/slider2.jpg"  >
 			              
 
 

@@ -173,37 +173,51 @@
 	<section id="logos">
 
       <div class="container">
-        <div class="row div_row">
+        <div class="row  ">
             <div class="row ">
                 <div class=" col-xs-12  "  >
-                  <label class="label_seccion" style="  border-left:4px solid #d8a9b5;">
+                  <label class="label_seccion"  >
 
-                      Convenios
+                      Articulaciones nacionales e internacionales del equipo SIDOM
 
                   </label>
                 </div>
               </div>
 
-            <section class="customer-logos slider">
+            <!-- <section class="customer-logos slider">
 				<div class="slide">
-						LOGO 1
+						<img src="assets/img/convenios/helpage.png"></img><br>
+						<p>HelpAge International Global Network</p>
 				</div>
 				<div class="slide">
-						LOGO 2
+						<img src="assets/img/convenios/eastanglia.png"></img><br>
+						<p>University of East Anglia, Inglaterra.</p>
 				</div>
  				<div class="slide">
-						LOGO 3
+						<img src="assets/img/convenios/uba.png"></img><br>
+						<p>Facultad de Medicina, Universidad de Buenos Aires.</p>
+				</div>
+            </section> -->
+            <section class="customer-logos slider convenios">
+				<div class="slide">
+						<img src="assets/img/convenios/helpage.png"></img><br>
+						<p>HelpAge International Global Network</p>
 				</div>
 				<div class="slide">
-						LOGO 4
+						<img src="assets/img/convenios/eastanglia.png"></img><br>
+						<p>University of East Anglia, Inglaterra.</p>
 				</div>
-				<div class="slide">
-						LOGO 5
+ 				<div class="slide">
+
+						<img src="assets/img/convenios/uba.png"></img><br>
+						<p>Facultad de Medicina, Universidad de Buenos Aires.</p>
 				</div>
+				 
             </section>
         </div>
       </div>
     </section>
+	<script type="text/javascript" src="./assets/js/jquery.min.js"  ></script>
 
 <?php include('estructura/footer.php') ?>
 

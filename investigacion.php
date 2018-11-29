@@ -20,6 +20,7 @@
  		
  		<div class="container">
 			<div class="col-md-8 col-xs-12 " style="padding-top: 30px; padding-bottom: 30px  " >
+				<div class="imagen_header imagen_investigacion_1"></div>
 				<p>
 					A través de la Fundación SIDOM desarrollamos programas de <strong>investigaciones empíricas </strong>  dirigidos a evaluar la <strong>adecuación de los servicios sociosanitarios que se ofrecen para satisfacer las necesidades de diversos pacientes.</strong>
 				</p>
